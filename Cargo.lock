@@ -125,6 +125,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "oiiaio-billing"
+version = "0.0.0"
+dependencies = [
+ "rusqlite",
+]
+
+[[package]]
 name = "oiiaio-control"
 version = "0.0.0"
 dependencies = [
