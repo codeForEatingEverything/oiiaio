@@ -7,6 +7,8 @@ pub mod bench;
 pub mod config;
 pub mod fault;
 pub mod target;
+pub mod trace;
+pub mod usage;
 pub mod virt;
 
 /// 返回构建标识，占位用，后续替换为真实的版本/能力协商逻辑。
