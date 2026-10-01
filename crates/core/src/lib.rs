@@ -2,6 +2,8 @@
 //!
 //! 当前仅含最小内容，用于让 workspace 可编译、可测试（plan.md 0.01–0.02）。
 
+pub mod target;
+
 /// 返回构建标识，占位用，后续替换为真实的版本/能力协商逻辑。
 pub fn build_id() -> &'static str {
     "oiiaio-dev"
