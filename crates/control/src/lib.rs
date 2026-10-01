@@ -4,5 +4,6 @@
 //! 真正的 VM 生命周期、网络、镜像等需要 KVM 宿主，另行在具备环境时实现。
 
 pub mod node;
+pub mod reconcile;
 pub mod schedule;
 pub mod workspace;
