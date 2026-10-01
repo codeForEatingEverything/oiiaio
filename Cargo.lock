@@ -149,6 +149,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "oiiaio-events"
+version = "0.0.0"
+dependencies = [
+ "rusqlite",
+]
+
+[[package]]
 name = "oiiaio-identity"
 version = "0.0.0"
 dependencies = [

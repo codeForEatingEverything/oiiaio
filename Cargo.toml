@@ -8,6 +8,7 @@ members = [
     "crates/identity",
     "crates/memory",
     "crates/billing",
+    "crates/events",
 ]
 
 [workspace.package]
