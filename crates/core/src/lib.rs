@@ -4,6 +4,7 @@
 
 pub mod config;
 pub mod target;
+pub mod virt;
 
 /// 返回构建标识，占位用，后续替换为真实的版本/能力协商逻辑。
 pub fn build_id() -> &'static str {
