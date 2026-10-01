@@ -4,6 +4,7 @@
 
 pub mod bench;
 pub mod config;
+pub mod fault;
 pub mod target;
 pub mod virt;
 
