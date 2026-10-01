@@ -5,6 +5,7 @@
 pub mod auth;
 pub mod bench;
 pub mod config;
+pub mod contract;
 pub mod fault;
 pub mod target;
 pub mod trace;
