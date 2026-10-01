@@ -3,6 +3,7 @@ resolver = "2"
 members = [
     "bins/oiiaio",
     "crates/core",
+    "crates/store",
 ]
 
 [workspace.package]
