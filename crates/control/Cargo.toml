@@ -7,3 +7,5 @@ license.workspace = true
 [dependencies]
 oiiaio-store = { path = "../store" }
 rusqlite = { version = "0.32", features = ["bundled"] }
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+chrono-tz = "0.9"

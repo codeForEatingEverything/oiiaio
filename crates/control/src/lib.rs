@@ -3,6 +3,7 @@
 //! 当前仅含不依赖 Linux/KVM 的数据逻辑：节点注册、版本协商、心跳、失联。
 //! 真正的 VM 生命周期、网络、镜像等需要 KVM 宿主，另行在具备环境时实现。
 
+pub mod cron;
 pub mod node;
 pub mod reconcile;
 pub mod schedule;
