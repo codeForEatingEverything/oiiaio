@@ -4,6 +4,7 @@ members = [
     "bins/oiiaio",
     "crates/core",
     "crates/store",
+    "crates/control",
 ]
 
 [workspace.package]
