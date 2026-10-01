@@ -2,6 +2,7 @@
 //!
 //! 当前仅含最小内容，用于让 workspace 可编译、可测试（plan.md 0.01–0.02）。
 
+pub mod auth;
 pub mod bench;
 pub mod config;
 pub mod fault;
