@@ -6,6 +6,7 @@
 use rusqlite::Connection;
 
 pub mod migrate;
+pub mod ops;
 
 /// 最小元数据存储句柄。
 pub struct MetaStore {
