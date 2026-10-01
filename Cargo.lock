@@ -149,6 +149,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "oiiaio-memory"
+version = "0.0.0"
+dependencies = [
+ "rusqlite",
+]
+
+[[package]]
 name = "oiiaio-store"
 version = "0.0.0"
 dependencies = [

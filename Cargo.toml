@@ -6,6 +6,7 @@ members = [
     "crates/store",
     "crates/control",
     "crates/identity",
+    "crates/memory",
 ]
 
 [workspace.package]
